@@ -1,9 +1,10 @@
 
 // get refercences
-var player = document.querySelector("lottie-player");
+var player = document.querySelector("dotlottie-player");
 // on scroll
 let scrollval = 0;
 window.addEventListener("scroll", () => {
+    
     if (scrollval > window.scrollY) {
         //  // change direction to backwards
         player.setDirection(-1);
